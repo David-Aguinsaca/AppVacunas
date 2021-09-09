@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appvacunas">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,7 +13,6 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".HistorialVacunasActivity"></activity>
         <activity android:name=".RegistroActivity" />
-        <activity android:name=".SolicitudVacunaActivity" />
         <activity android:name=".VacunasActivity" />
         <activity android:name=".InicioActivity" />
         <activity android:name=".IngresoActivity">
